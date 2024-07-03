@@ -1,0 +1,15 @@
+LIF_Model.py adlı dosya 1 adet Sızıntılı Topla ve Ateşle (Leaky Integrate and Fire- LIF) nöron modeli için Euler Yöntemi kullanılarak modellenmesidir. İlgili makalede Şekil 1 olarak verilen grafik bu kod ile elde edilmiştir. Bu kodun düzgün çalışabilmesi için Sympy ve Matplotlib kütüphaneleri kulanılmalıdır.
+
+Controller_Learning ve Controller_Recall sırasıyla öğrenme ve hatırlama süreçleri için Webots'da kullanılan kodlardır. Bu kodlar vuru üreten sinir ağının kodunu ve robot için yazılan hareket kurallarını gerçekleştiren kodlardır.
+
+->Bu kodların kullanılabilmesi için Webots projesi içinde bulunan "controllers" klasörünün altına kendi adlarına sahip alt klasörlerin için konulmalıdır. Örneğin controller_Learning.py kodu controller_Learning adlı klasörün altında olmalı. Bu klasör ise "controllers" klasörünün altında olmalıdır.
+
+->Kodun çalışabilmesi Matplotlib, Sympy, Numpy, Pandas, math, csv ve random kütüphanelerine ihtiyaç vardır.
+
+->Kodların çıktıları masaüstünde Results adlı bir klasörde toplanmaktadır. Kodların çalışabilmesi için adreslerin yeniden düzenlenmesine ihtiyaç vardır.
+
+--> Learning kodu için 18, 78, 79, 480, 825, 836, 840, 857, 858, 886, 939, 992, 1045, 1103, 1161, 1200, 1260 kodundaki adresler yeniden düzenlenmelidir.
+
+--> Recall kodu için 19, 36, 41, 426, 748, 759, 763, 804, 857, 910, 963, 1021, 1079, 1118 ve 1178 kodundaki adresler yeniden düzenlenmelidir.
+
+robot_maze.wbt dosyası labirentin ve robotun bulunduğu dünya dosyasıdır. Bu dosya "controllers" klasörünün bulunduğu proje klasörünün içinde "worlds" klasörüne konulmalıdır. Robot 2 dc motor, 1 kamera ve 1 gps klasörüne sahiptir. Çalıştırılacak kontrolör robota ait alt klasörlerden seçilecektir.

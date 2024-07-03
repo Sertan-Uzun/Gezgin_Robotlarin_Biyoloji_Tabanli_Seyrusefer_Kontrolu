@@ -1,0 +1,1000 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
+  position 1.027511503419533e-06 4.113333985155409e-09 13.403016523539494
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 6 6
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+  wallHeight 0.01
+}
+Solid {
+  translation -1.8 -2.1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 0.1 0.9 0.1
+      }
+    }
+  ]
+  name "wall_1"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation -1.1 -1.6 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 1.5 0.1 0.1
+      }
+    }
+  ]
+  name "wall_2"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation -0.3 -2 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 0.1 0.9 0.1
+      }
+    }
+  ]
+  name "wall_3"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation 0.1 -2.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 0.9 0.1 0.1
+      }
+    }
+  ]
+  name "wall_4"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation 0.5 -2 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 0.1 0.9 0.1
+      }
+    }
+  ]
+  name "wall_5"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation 1.3 -1.6 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 1.5 0.1 0.1
+      }
+    }
+  ]
+  name "wall_6"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation 2 -1.25 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 0.1 0.6 0.1
+      }
+    }
+  ]
+  name "wall_7"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation 1.3 -0.9 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 1.5 0.1 0.1
+      }
+    }
+  ]
+  name "wall_8"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation 0.5 -0.05 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 0.1 1.8 0.1
+      }
+    }
+  ]
+  name "wall_9"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation 1 0.8 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 0.9 0.1 0.1
+      }
+    }
+  ]
+  name "wall_10"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation 1.5 1.2 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 0.1 0.9 0.1
+      }
+    }
+  ]
+  name "wall_11"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation 1 1.6 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 0.9 0.1 0.1
+      }
+    }
+  ]
+  name "wall_12"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation 0.5 2 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 0.1 0.9 0.1
+      }
+    }
+  ]
+  name "wall_13"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation 0.1 2.4 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 0.9 0.1 0.1
+      }
+    }
+  ]
+  name "wall_14"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation -0.3 2 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 0.1 0.9 0.1
+      }
+    }
+  ]
+  name "wall_15"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation -0.8 1.6 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 0.9 0.1 0.1
+      }
+    }
+  ]
+  name "wall_16"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation -1.3 1.2 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 0.1 0.9 0.1
+      }
+    }
+  ]
+  name "wall_17"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation -0.8 0.8 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 0.9 0.1 0.1
+      }
+    }
+  ]
+  name "wall_18"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation -0.3 -0.05 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 0.1 1.8 0.1
+      }
+    }
+  ]
+  name "wall_19"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation -1.1 -0.9 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 1.5 0.1 0.1
+      }
+    }
+  ]
+  name "wall_20"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation -1.8 -0.25 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 0.1 1.2 0.1
+      }
+    }
+  ]
+  name "wall_21"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation -2.15 0.3 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 0.6 0.1 0.1
+      }
+    }
+  ]
+  name "wall_22"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation -2.5 -1.1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.9 0.9
+      }
+      geometry DEF b1 Box {
+        size 0.1 2.9 0.1
+      }
+    }
+  ]
+  name "wall_23"
+  boundingObject USE b1
+  recognitionColors [
+    0.9 0.9 0.9
+  ]
+}
+Solid {
+  translation -2.15 -2.45 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 1 0
+        metalness 0
+      }
+      geometry DEF b2 Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "obj_1"
+  boundingObject USE b2
+  recognitionColors [
+    0 1 0
+  ]
+}
+Solid {
+  translation -2 -1.45 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        metalness 0
+      }
+      geometry DEF b3 Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "obj_2"
+  boundingObject USE b3
+  recognitionColors [
+    1 1 1
+  ]
+}
+Solid {
+  translation -2.3 -0.7 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry DEF b3 Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "obj_3"
+  boundingObject USE b3
+  recognitionColors [
+    1 0 0
+  ]
+}
+Solid {
+  translation -2.15 0.1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 1
+        metalness 0
+      }
+      geometry DEF b3 Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "obj_4"
+  boundingObject USE b3
+  recognitionColors [
+    1 0 1
+  ]
+}
+Solid {
+  translation -1.6 -1.2 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry DEF b3 Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "obj_5"
+  boundingObject USE b3
+  recognitionColors [
+    0 0 1
+  ]
+}
+Solid {
+  translation -0.9 -1.45 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        metalness 0
+      }
+      geometry DEF b3 Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "obj_6"
+  boundingObject USE b3
+  recognitionColors [
+    0 0 0
+  ]
+}
+Solid {
+  translation 0.1 -1.25 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry DEF b3 Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "obj_7"
+  boundingObject USE b3
+  recognitionColors [
+    0 0 1
+  ]
+}
+Solid {
+  translation 0.3 -1.7 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry DEF b3 Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "obj_8"
+  boundingObject USE b3
+  recognitionColors [
+    1 0 0
+  ]
+}
+Solid {
+  translation 0.1 -2.25 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 1
+        metalness 0
+      }
+      geometry DEF b3 Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "obj_9"
+  boundingObject USE b3
+  recognitionColors [
+    0.5 0 1
+  ]
+}
+Solid {
+  translation 0.8 -1.05 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry DEF b3 Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "obj_10"
+  boundingObject USE b3
+  recognitionColors [
+    1 1 0
+  ]
+}
+Solid {
+  translation 1.6 -1.25 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 1
+        metalness 0
+      }
+      geometry DEF b3 Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "obj_11"
+  boundingObject USE b3
+  recognitionColors [
+    1 0 1
+  ]
+}
+Solid {
+  translation 0.1 -0.45 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        metalness 0
+      }
+      geometry DEF b3 Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "obj_12"
+  boundingObject USE b3
+  recognitionColors [
+    1 1 1
+  ]
+}
+Solid {
+  translation 0.35 0.1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        metalness 0
+      }
+      geometry DEF b3 Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "obj_13"
+  boundingObject USE b3
+  recognitionColors [
+    0 0 0
+  ]
+}
+Solid {
+  translation 0.1 1.2 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry DEF b3 Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "obj_14"
+  boundingObject USE b3
+  recognitionColors [
+    1 1 0
+  ]
+}
+Solid {
+  translation -0.1 0.6 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry DEF b3 Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "obj_15"
+  boundingObject USE b3
+  recognitionColors [
+    1 0 0
+  ]
+}
+Solid {
+  translation 0.65 1.45 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        metalness 0
+      }
+      geometry DEF b3 Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "obj_16"
+  boundingObject USE b3
+  recognitionColors [
+    0 0 0
+  ]
+}
+Solid {
+  translation 1.15 1.2 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 1
+        metalness 0
+      }
+      geometry DEF b3 Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "obj_17"
+  boundingObject USE b3
+  recognitionColors [
+    1 0 1
+  ]
+}
+Solid {
+  translation 0.1 2.1 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 1
+        metalness 0
+      }
+      geometry DEF b3 Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "obj_18"
+  boundingObject USE b3
+  recognitionColors [
+    1 0 1
+  ]
+}
+Solid {
+  translation -1.05 1.2 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 1
+        metalness 0
+      }
+      geometry DEF b3 Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "obj_19"
+  boundingObject USE b3
+  recognitionColors [
+    1 0 1
+  ]
+}
+Robot {
+  translation 0.1 -2.15 -0.000406574
+  rotation 1.072522900034471e-05 -0.0061613557442916035 0.9999810186100342 -3.1390923028759756
+  children [
+    GPS {
+      children [
+        Solid {
+          translation 0 0 0.1
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0.3 0.3 0.3
+                metalness 0
+              }
+              geometry Box {
+                size 0.005 0.005 0.005
+              }
+            }
+          ]
+        }
+      ]
+      name "gps_1"
+    }
+    DistanceSensor {
+      translation 0 -0.042 0.102
+      rotation 0 0 1 -1.57
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.3 0.3 0.3
+            metalness 0
+          }
+          geometry Box {
+            size 0.005 0.005 0.005
+          }
+        }
+      ]
+      name "dist_"
+    }
+    Solid {
+      translation 0 -0.042 0.102
+      children [
+        Camera {
+          rotation 0 0 -1 1.57
+          name "cam_1"
+          recognition Recognition {
+          }
+        }
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.3 0.3 0.3
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.005 0.005 0.005
+          }
+        }
+      ]
+      name "cam_"
+    }
+    Solid {
+      translation 0.025 -0.05 0.07
+      rotation 1 0 0 1.57
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0.6
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.005
+            radius 0.005
+          }
+        }
+      ]
+      name "eye_1"
+    }
+    Solid {
+      translation -0.025 -0.05 0.07
+      rotation 1 0 0 1.57
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0.6
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.005
+            radius 0.005
+          }
+        }
+      ]
+      name "eye_2"
+    }
+    Solid {
+      translation 0.03 0.03 0.116
+      children [
+        DEF ear Shape {
+          appearance PBRAppearance {
+            baseColor 0.3 0.3 0.3
+            roughness 1
+            metalness 0
+          }
+          geometry Cone {
+            bottomRadius 0.02
+            height 0.03
+          }
+        }
+      ]
+      name "ear_1"
+    }
+    Solid {
+      translation -0.03 0.03 0.116
+      children [
+        DEF ear Shape {
+          appearance PBRAppearance {
+            baseColor 0.3 0.3 0.3
+            roughness 1
+            metalness 0
+          }
+          geometry Cone {
+            bottomRadius 0.02
+            height 0.03
+          }
+        }
+      ]
+      name "ear_2"
+    }
+    DEF body Pose {
+      translation 0 0 0.051
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.3 0.3 0.3
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 0.1
+          }
+        }
+      ]
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 336.33309855668296
+        anchor 0.055 0 0.025
+      }
+      device [
+        RotationalMotor {
+          name "motor_1"
+        }
+      ]
+      endPoint Solid {
+        translation 0.055 0 0.025
+        rotation -0.7059103402223604 0.06460793936793101 -0.7053484286065866 3.012453605450042
+        children [
+          DEF wheel Shape {
+            appearance PBRAppearance {
+              roughness 1
+              metalness 0
+            }
+            geometry Cylinder {
+              height 0.01
+              radius 0.025
+            }
+          }
+        ]
+        boundingObject USE wheel
+        physics DEF wheel_pyhsics Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 336.84482052289894
+        anchor -0.055 0 0.025
+      }
+      device [
+        RotationalMotor {
+          name "motor_2"
+        }
+      ]
+      endPoint Solid {
+        translation -0.0549996962985493 3.353768437070153e-08 0.024999959727476782
+        rotation -0.6853263423971288 0.2477964000393161 -0.6847808032824291 2.6554134637280047
+        children [
+          USE wheel
+        ]
+        name "solid(1)"
+        boundingObject USE wheel
+        physics USE wheel_pyhsics
+      }
+    }
+  ]
+  boundingObject USE body
+  physics Physics {
+  }
+  controller "controller_Recall_3"
+}
