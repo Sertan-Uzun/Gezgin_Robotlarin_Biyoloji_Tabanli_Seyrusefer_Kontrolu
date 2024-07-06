@@ -17,8 +17,8 @@ düzenlenmesine ihtiyaç vardır.
 --> Learning kodu için 18, 78, 79, 480, 825, 836, 840, 857, 858, 886, 939, 992, 1045, 1103, 1161, 1200, 1260 kodundaki 
 adresler yeniden düzenlenmelidir.
 
---> Recall kodu için 19, 36, 41, 426, 748, 759, 763, 804, 857, 910, 963, 1021, 1079, 1118 ve 1178 kodundaki adresler yeniden
-düzenlenmelidir.
+--> Recall kodu için 19, 36, 41, 426, 748, 759, 763, 804, 857, 910, 963, 1021, 1079, 1118 ve 1178 kodundaki 
+adresler yeniden düzenlenmelidir.
 
 robot_maze.wbt dosyası labirentin ve robotun bulunduğu dünya dosyasıdır. Bu dosya "controllers" klasörünün bulunduğu proje 
 klasörünün içinde "worlds" klasörüne konulmalıdır. Robot 2 dc motor, 1 kamera ve 1 gps klasörüne sahiptir. Çalıştırılacak 
